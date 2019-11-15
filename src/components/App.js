@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Landing from "./Landing";
 import ItemList from "./ItemList";
+import Register from "./Register";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Landing />
       <div className="container">
         <ItemList />
+        <Register />
       </div>
     </div>
   );
