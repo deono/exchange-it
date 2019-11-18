@@ -7,8 +7,8 @@ const Register = () => {
   console.log("input: ", input);
 
   return (
-    <div className="container">
-      <h1 className="d-1">Register</h1>
+    <div className="container form-container">
+      <h1 className="d-1 text-warning text-center">Register</h1>
       <form>
         <div className="form-group">
           <label htmlFor="first-name" hidden>

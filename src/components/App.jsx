@@ -6,6 +6,9 @@ import ItemList from "./ItemList";
 import Register from "./Register";
 import Login from "./Login";
 import AddItem from "./AddItem.jsx";
+import Dashboard from "./Dashboard";
+
+import "../styles/App.css";
 
 function App() {
   return (
@@ -13,9 +16,11 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          {/* <div className="container"> */}
           <Route path="/item-list">
             <ItemList />
+          </Route>
+          <Route path="/add-item">
+            <AddItem />
           </Route>
           <Route path="/register">
             <Register />
@@ -23,10 +28,9 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <Route path="add-item">
-            <AddItem />
+          <Route path="/dashboard">
+            <Dashboard />
           </Route>
-          {/* </div> */}
           <Route path="/">
             <Landing />
           </Route>

@@ -7,8 +7,8 @@ const Login = () => {
   console.log("input: ", input);
 
   return (
-    <div className="container">
-      <h1 className="d-1">Login</h1>
+    <div className="container form-container">
+      <h1 className="d-1 text-warning text-center">Login</h1>
       <form>
         <div className="form-group">
           <label htmlFor="email" hidden>
