@@ -3,7 +3,7 @@ import ItemCard from "./ItemCard";
 
 const ItemList = () => {
   return (
-    <div>
+    <div className="container">
       <ItemCard />
     </div>
   );

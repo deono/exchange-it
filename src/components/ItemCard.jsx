@@ -12,7 +12,7 @@ const ItemCard = () => {
         <div className="card-body">
           <h5 className="card-title">Item name</h5>
           <p className="card-text">Exchange for: something nice</p>
-          <a href="/" className="btn btn-primary">
+          <a href="/" className="btn btn-warning">
             View
           </a>
         </div>

@@ -7,7 +7,7 @@ const Register = () => {
   console.log("input: ", input);
 
   return (
-    <div>
+    <div className="container">
       <h1 className="d-1">Register</h1>
       <form>
         <div className="form-group">

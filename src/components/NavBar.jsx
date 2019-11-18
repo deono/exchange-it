@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import SearchBar from "./SearchBar";
 
 const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand text-warning" to="/">
           Exchange It!
         </Link>
         <button
@@ -23,35 +23,35 @@ const NavBar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <Link className="nav-link" to="/add-item">
-                View Items <span className="sr-only">(current)</span>
-              </Link>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/item-list">
+                View Items
+              </NavLink>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="/add-item">
+              <NavLink className="nav-link" to="/add-item">
                 Add Item
-              </Link>
+              </NavLink>
             </li>
           </ul>
           {/* SEARCH BAR */}
           <SearchBar />
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/login">
+              <NavLink className="nav-link" to="/login">
                 Login
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/register">
+              <NavLink className="nav-link" to="/register">
                 Register
-              </Link>
+              </NavLink>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/dashboard">
+              <NavLink className="nav-link" to="/dashboard">
                 Dashboard
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

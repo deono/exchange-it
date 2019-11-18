@@ -15,7 +15,7 @@ const SearchBar = () => {
         <option value="2">Clothing</option>
         <option value="3">Music</option>
       </select>
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
+      <button className="btn btn-outline-warning my-2 my-sm-0" type="submit">
         Search
       </button>
     </form>
