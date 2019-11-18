@@ -1,66 +1,90 @@
 export const ITEMS = [
   {
     itemID: 1,
-    name: "Piano",
+    itemName: "Piano",
     exchangeFor: "Gibson Les Paul Guitar",
+    condition: "Used - Like New",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/8QrPJ3Kfie4"
+    imageUrl: "https://source.unsplash.com/8QrPJ3Kfie4",
+    date: "2018-12-23",
+    userName: "John Doe"
   },
   {
     itemID: 2,
-    name: "Basketball",
+    itemName: "Basketball",
     exchangeFor: "Skateboard",
+    condition: "Used - Good",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/Gl0jBJJTDWs"
+    imageUrl: "https://source.unsplash.com/Gl0jBJJTDWs",
+    date: "2019-01-02",
+    userName: "Leanne Graham"
   },
   {
     itemID: 3,
-    name: "Skateboard",
+    itemName: "Skateboard",
     exchangeFor: "Basketball",
+    condition: "Used - Acceptable",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/Vbbn4xNBfnM"
+    imageUrl: "https://source.unsplash.com/Vbbn4xNBfnM",
+    date: "2019-02-09",
+    userName: "Ervin Howell"
   },
   {
     itemID: 4,
-    name: "Gibson Les Paul Guitar",
+    itemName: "Gibson Les Paul Guitar",
     exchangeFor: "Piano",
+    condition: "Used - Like New",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/w1zhNv6CENc"
+    imageUrl: "https://source.unsplash.com/w1zhNv6CENc",
+    date: "2014-04-21",
+    userName: "Patricia Lebsack"
   },
   {
     itemID: 5,
-    name: "Old boots",
+    itemName: "Old boots",
     exchangeFor: "Belt",
+    condition: "Used - Acceptable",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/x7gz40Z9ObM"
+    imageUrl: "https://source.unsplash.com/x7gz40Z9ObM",
+    date: "2019-05-30",
+    userName: "Chelsey Dietrich"
   },
   {
     itemID: 6,
-    name: "Belt",
+    itemName: "Belt",
     exchangeFor: "Old boots",
+    condition: "New",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/gUzOZaswagA"
+    imageUrl: "https://source.unsplash.com/gUzOZaswagA",
+    date: "2019-06-06",
+    userName: "Dennis Schulist"
   },
   {
     itemID: 7,
-    name: "Headphones",
+    itemName: "Headphones",
     exchangeFor: "Speaker",
+    condition: "Used - Very Good",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/PDX_a_82obo"
+    imageUrl: "https://source.unsplash.com/PDX_a_82obo",
+    date: "2019-07-25",
+    userName: "Kurtis Weissnat"
   },
   {
     itemID: 8,
-    name: "Speaker",
+    itemName: "Speaker",
     exchangeFor: "Headphones",
+    condition: "Used - Like New",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    imageUrl: "https://source.unsplash.com/xzV9lfNVSmY"
+    imageUrl: "https://source.unsplash.com/xzV9lfNVSmY",
+    date: "2019-08-03",
+    userName: "Glenna Reichert"
   }
 ];
