@@ -19,7 +19,6 @@ const Register = () => {
             className="form-control"
             name="first-name"
             id="first-name"
-            aria-describedby="First Name"
             placeholder="Enter first name"
             onChange={handleInputChange}
           />
@@ -46,13 +45,9 @@ const Register = () => {
             className="form-control"
             name="email"
             id="email"
-            aria-describedby="emailHelp"
             placeholder="Enter email"
             onChange={handleInputChange}
           />
-          <small id="emailHelp" className="form-text text-muted">
-            We'll never share your email with anyone else.
-          </small>
         </div>
         <div className="form-group">
           <label htmlFor="password-1" hidden>
