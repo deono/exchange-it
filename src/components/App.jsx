@@ -7,7 +7,7 @@ import Register from "./Register";
 import Login from "./Login";
 import AddItem from "./AddItem.jsx";
 import Dashboard from "./Dashboard";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import ItemView from "./ItemView";
 
 import "../styles/App.css";
@@ -40,7 +40,7 @@ function App() {
             <Landing />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

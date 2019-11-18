@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ExchangeList from "./ExchangeList";
 import { ITEMS } from "../data/items";
 
 const ItemView = () => {
+  const [listExchange, toggleListExchange] = useState(false);
+
   return (
     <div className="container">
       <div className="card mb-3">
@@ -32,11 +35,18 @@ const ItemView = () => {
                 </p>
                 <p className="card-text text-muted">{ITEMS[6].description}</p>
               </div>
-              <button className="btn btn-warning">Propose exchange</button>
+              <button
+                className="btn btn-warning"
+                onClick={() => toggleListExchange(!listExchange)}
+              >
+                Propose exchange
+              </button>
             </div>
           </div>
         </div>
       </div>
+
+      {listExchange && <ExchangeList />}
     </div>
   );
 };

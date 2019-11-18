@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ItemCard = ({ itemName, exchangeFor, imageUrl }) => {
   return (
@@ -8,9 +9,9 @@ const ItemCard = ({ itemName, exchangeFor, imageUrl }) => {
         <div className="card-body">
           <h5 className="card-title">{itemName}</h5>
           <p className="card-text">{`Exchange for: ${exchangeFor}`}</p>
-          <a href="/" className="btn btn-warning">
+          <Link to="/item-view" className="btn btn-warning">
             View
-          </a>
+          </Link>
         </div>
       </div>
     </div>

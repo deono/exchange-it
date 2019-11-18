@@ -2,6 +2,7 @@ export const ITEMS = [
   {
     itemID: 1,
     itemName: "Piano",
+    category: "Music",
     exchangeFor: "Gibson Les Paul Guitar",
     condition: "Used - Like New",
     description:
@@ -13,6 +14,7 @@ export const ITEMS = [
   {
     itemID: 2,
     itemName: "Basketball",
+    category: "Sport",
     exchangeFor: "Skateboard",
     condition: "Used - Good",
     description:
@@ -24,6 +26,7 @@ export const ITEMS = [
   {
     itemID: 3,
     itemName: "Skateboard",
+    category: "Sport",
     exchangeFor: "Basketball",
     condition: "Used - Acceptable",
     description:
@@ -35,6 +38,7 @@ export const ITEMS = [
   {
     itemID: 4,
     itemName: "Gibson Les Paul Guitar",
+    category: "Music",
     exchangeFor: "Piano",
     condition: "Used - Like New",
     description:
@@ -46,6 +50,7 @@ export const ITEMS = [
   {
     itemID: 5,
     itemName: "Old boots",
+    category: "Clothing",
     exchangeFor: "Belt",
     condition: "Used - Acceptable",
     description:
@@ -57,6 +62,7 @@ export const ITEMS = [
   {
     itemID: 6,
     itemName: "Belt",
+    category: "Clothing",
     exchangeFor: "Old boots",
     condition: "New",
     description:
@@ -68,6 +74,7 @@ export const ITEMS = [
   {
     itemID: 7,
     itemName: "Headphones",
+    category: "Sound",
     exchangeFor: "Speaker",
     condition: "Used - Very Good",
     description:
@@ -79,6 +86,7 @@ export const ITEMS = [
   {
     itemID: 8,
     itemName: "Speaker",
+    category: "Sound",
     exchangeFor: "Headphones",
     condition: "Used - Like New",
     description:

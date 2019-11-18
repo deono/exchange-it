@@ -14,6 +14,7 @@ const SearchBar = () => {
         <option value="1">Sports</option>
         <option value="2">Clothing</option>
         <option value="3">Music</option>
+        <option value="4">Sound</option>
       </select>
       <button className="btn btn-outline-warning my-2 my-sm-0" type="submit">
         Search
