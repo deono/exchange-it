@@ -75,7 +75,7 @@ const Register = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-warning">
           Register
         </button>
       </form>

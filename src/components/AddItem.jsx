@@ -84,7 +84,7 @@ const AddItem = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-warning">
           Add Item
         </button>
       </form>

@@ -1,17 +1,13 @@
 import React from "react";
 
-const ItemCard = () => {
+const ItemCard = ({ name, exchangeFor, imageUrl }) => {
   return (
-    <div>
+    <div className="col-12 col-md-6 col-lg-3">
       <div className="card">
-        <img
-          src="https://source.unsplash.com/7SxSkCvVM1U"
-          className="card-img-top"
-          alt=""
-        />
+        <img src={imageUrl} className="card-img-top" alt={name} />
         <div className="card-body">
-          <h5 className="card-title">Item name</h5>
-          <p className="card-text">Exchange for: something nice</p>
+          <h5 className="card-title">{name}</h5>
+          <p className="card-text">{`Exchange for: ${exchangeFor}`}</p>
           <a href="/" className="btn btn-warning">
             View
           </a>
