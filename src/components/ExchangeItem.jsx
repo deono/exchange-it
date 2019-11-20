@@ -3,15 +3,15 @@ import React from "react";
 const ExchangeItem = ({ itemName, condition, imageUrl, date }) => {
   return (
     <div>
-      <div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-2">
-            <img src={imageUrl} class="card-img" alt={itemName} />
+      <div className="card mb-3">
+        <div className="row no-gutters">
+          <div className="col-md-2">
+            <img src={imageUrl} className="card-img" alt={itemName} />
           </div>
-          <div class="col-md-10">
-            <div class="card-body d-flex flex-row justify-content-between">
+          <div className="col-md-10">
+            <div className="card-body d-flex flex-row justify-content-between">
               <div>
-                <h5 class="card-title">
+                <h5 className="card-title">
                   {itemName}: {condition}
                 </h5>
               </div>
